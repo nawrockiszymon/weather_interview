@@ -2,6 +2,7 @@
 
 .search {
   position: relative;
+  font-family: sans-serif;
 
   &__lbl {
     color: rgba(255, 255, 255, 0.7);
@@ -28,5 +29,6 @@
     border: rem(1px) solid rgba(255, 255, 255, 0.23);
     background-color: rgb(0, 30, 60);
     margin: rem(10px);
+    color: rgba(255, 255, 255, 0.9);
   }
 }
