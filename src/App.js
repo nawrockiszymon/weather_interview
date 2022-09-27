@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import SearchBar from './components/SearchBar';
-import Weather from './components/Weather';
-import WeatherForecastChart from './components/WeatherForecastChart';
+import SearchBar from "./components/SearchBar";
+import Weather from "./components/Weather";
+import WeatherForecastChart from "./components/WeatherForecastChart";
+import "./styles/main.scss";
 
 function App() {
   return (
-  <main>
-  <SearchBar/>
-  <Weather/>
-  <WeatherForecastChart/>
-  </main>
+    <main className="App">
+      <SearchBar />
+      <Weather />
+      <WeatherForecastChart />
+    </main>
   );
 }
 
