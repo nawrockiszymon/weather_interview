@@ -1,14 +1,14 @@
-import React from 'react'
-import Autocomplete from './Autocomplete'
-import Search from './Search'
+import React from "react";
+import Autocomplete from "./Autocomplete";
+import Search from "./Search";
 
-function SearchBar() {
+function SearchBar({ searchValue, setSearchValue }) {
   return (
     <div>
-        <Search/>
-        <Autocomplete/>
+      <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+      <Autocomplete />
     </div>
-  )
+  );
 }
 
-export default SearchBar
+export default SearchBar;
